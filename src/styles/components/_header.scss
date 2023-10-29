@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--dark-color);
+  // gap: 3%;
+
+  .presentation {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    height: 100%;
+    width: 15vw;
+  }
+
+  .photoCV {
+    height: 100%;
+    border-radius: 4rem;
+    border: 1px solid var(--third-color);
+  }
+  p {
+    color: white;
+    padding: 1%;
+  }
+  .links{
+    display:flex;
+    width: 30vw;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 200ms;
+    margin:1%;
+
+    &.active {
+      color: var(--third-color);
+      font-weight: bold;
+      // background-color: var(--light-color);
+      // width: 20vw;
+      // align-items: ;
+      // text-decoration:underline;
+    }
+
+    &:hover {
+      color: var(--third-color);
+    }
+  }
+}

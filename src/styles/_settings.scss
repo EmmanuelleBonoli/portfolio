@@ -4,14 +4,25 @@
     box-sizing: border-box;
     font-family:'Dosis', sans-serif;
 }
-// html,body, .root{
-//     min-height: 100vh;
-// }
+     html,body, .root{
+    max-width: 100vw;
+    overflow-x: hidden;
+ }
+
+//  :root{
+//      font-size: 10px;
+//      --light-color: #4cd8d8b6;
+//     --dark-color:#31326fa7;
+//     --third-color:#fdc600bb;
+//      --third-color-light:#7998fea2;
+//         --third-color-dark: #3e3d89b0; }
 
 :root{
     font-size: 10px;
-    --light-color: #75C2F6;
-    --dark-color:#1D5D9B;
-    --third-color:#F0B432;
+    --light-color: #99C4C8;
+    --dark-color:#68A7AD;
+    --third-color:#E5CB9F;
+    --third-color-light:#EEE4AB;
 }
+
 

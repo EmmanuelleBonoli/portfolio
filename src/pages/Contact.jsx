@@ -1,10 +1,48 @@
-
 const Contact = () => {
-    return (
-        <div className="contact">
-           zadjbazkljdblazdbazldkazbdlazbd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tempore odit, ipsum voluptate facere iusto, adipisci ab sequi tempora voluptatem minus eum, repellat enim ipsa id dolorem incidunt accusantium. Aut.
+  const email = "ebonoli@hotmail.fr";
+  const githubLink = "https://github.com/EmmanuelleBonoli";
+  const linkedinLink = "https://www.linkedin.com/in/emmanuellebonoli";
+
+  return (
+    <div className="contact">
+      <div className="cardContact">
+        <div className="firstPartContact">
+          <h2>Emmanuelle BONOLI</h2>
+          <img
+            className="myself"
+            src="../../public/images/photoCVEBonoli.png"
+            alt="Emmanuelle BONOLI"
+          />
         </div>
-    );
+        <div className="socialNetworks">
+          <h3>{`N'hésitez pas à me contacter via les liens ci-dessous`}</h3>
+          <div>
+            <a href={`mailto:${email}`}>
+              <img
+                className="mail"
+                src="../../public/images/email-blanc.png"
+                alt="logo Mail"
+              />
+            </a>
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+              <img
+                className="github"
+                src="../../public/images/github.png"
+                alt="logo GitHub"
+              />
+            </a>
+            <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+              <img
+                className="linkedin"
+                src="../../public/images/linkedin-3-blanc.png"
+                alt="logo LinkedIn"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Contact;

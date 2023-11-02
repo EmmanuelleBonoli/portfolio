@@ -1,19 +1,10 @@
-.pageProjects{
-        background-color: rgb(175, 194, 205);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.pageProjects {
+  background-color: var(--dark-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-
-.projectsDev{
-        // display: flex;
-        // justify-content: flex-start;
-        //  flex-wrap: wrap;
-         width: 70vw;
-        //  align-items: center;
-        //  display: flex;
-        //  justify-content: center;
-        //  height: 100%;
-        //  border-left:2px solid black;
-    }
+  .projectsDev {
+    width: 70vw;
+  }
 }

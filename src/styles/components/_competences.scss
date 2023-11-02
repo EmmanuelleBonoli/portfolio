@@ -1,0 +1,42 @@
+.competences {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .descProfil {
+    display: flex;
+    justify-content: center;
+  }
+  .block {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+    padding: 2% 5% 5% 5%;
+    justify-content: space-around;
+    // align-items: ;
+  }
+
+  .frontEnd,
+  .backEnd,
+  .multiEnd,
+  .softSkills {
+    display: flex;
+    min-width: 210px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+    background-color: var(--light-color);
+    margin: 1%;
+  }
+.multiEnd {
+  min-height: 150px;
+}
+
+  h2,
+  h3 {
+    padding: 5%;
+  }
+}

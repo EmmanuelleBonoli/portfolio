@@ -1,5 +1,55 @@
 .contact{
+height: 60vh;
+margin-top: 5%;
+background-color: var(--third-color-light);
+display:flex;
+justify-content: center;
+align-items: center;
 
+
+.cardContact{
+    background-color: var(--light-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+    flex-wrap: wrap;
+min-width: 50vw;
+}
+
+.mail, .github, .linkedin{
+    width: 7vw;
+    padding: 1%;
+}
+.myself{
+    border-radius: 15px;
+    width: 10vw;
+}
+
+.socialNetworks{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:hover{
+    opacity: 40%;
+}
+
+.firstPartContact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+}
 
   
-}
+

@@ -1,3 +1,51 @@
-.myProfil{
-    
+.myProfil {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 2%;
+  flex-wrap: wrap;
+
+  .detailsProfil {
+    width: 80vw;
+  }
+  .compProfil,
+  .expProfil,
+  .otherProfil {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem 0;
+    color: rgba(51, 65, 85, 1);
+    transition: all 0.15s ease-in-out;
+  }
+
+  input:checked + .compProfil,
+  input:checked + .expProfil,
+  input:checked + .otherProfil {
+    background-color: var(--light-color);
+    font-weight: 600;
+  }
+  .filterProfil {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    background-color: var(--third-color);
+    padding: 0.25rem;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .filters {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  input {
+    display: none;
+  }
 }

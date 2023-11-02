@@ -1,3 +1,4 @@
+/* Styles pour les écrans plus larges */
 .header {
   display: flex;
   justify-content: space-between;
@@ -5,7 +6,6 @@
   width: 100vw;
   height: 10vh;
   background-color: var(--dark-color);
-  // gap: 3%;
 
   .presentation {
     display: flex;
@@ -20,32 +20,30 @@
     border-radius: 4rem;
     border: 1px solid var(--third-color);
   }
+
   p {
-    color: white;
     padding: 1%;
   }
-  .links{
-    display:flex;
+
+  .links {
     width: 30vw;
   }
+
   a {
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
     transition: 200ms;
-    margin:1%;
+    margin: 1%;
 
     &.active {
       color: var(--third-color);
       font-weight: bold;
-      // background-color: var(--light-color);
-      // width: 20vw;
-      // align-items: ;
-      // text-decoration:underline;
     }
 
     &:hover {
-      color: var(--third-color);
+      color: var(--light-color);
     }
   }
 }
+

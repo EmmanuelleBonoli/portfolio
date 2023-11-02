@@ -1,0 +1,39 @@
+.interests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  min-height: 80vh;
+    padding: 5%;
+
+ .block{
+display: flex;
+flex-wrap: wrap;
+ }
+
+  img {
+    width: 50%;
+  }
+  .descAsso {
+    width: 15vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .asso,
+  .draw,
+  .tennis,
+  .code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3%;
+  }
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vw;
+  }
+}

@@ -15,21 +15,19 @@ const ProjectCard = ({
   return (
     <div className="cardProject">
       <div className="first-content">
-        <img src={image} className="illuProject" alt="image du projet"/>
+        <img src={image} className="illuProject" alt="image du projet" />
         <div className="learn-more">
-        <h1>Projet : {name}</h1>
+          <h1>Projet : {name}</h1>
           {stack}
-          <div className="moreInfos">
-          {`Plus d'infos >`}
-          </div>
+          <div className="moreInfos">{`Plus d'infos >`}</div>
         </div>
       </div>
 
       <div className="second-content">
-        <span>
-          <div className="topProjectCard">
+        <span className="topProjectCard">
+          <div >
             <div>
-              <img className="illu2nd"src={image2} alt="image du projet"/>
+              <img className="illu2nd" src={image2} alt="image du projet" />
             </div>
             <div className="detailsProject">
               <h1>{name}</h1>
@@ -46,6 +44,8 @@ const ProjectCard = ({
                 Voir vers le site :
                 {link === "à venir" ? (
                   <p className="buttonFuture">à venir</p>
+                ) : link === "vous y êtes! :)" ? (
+                  <p className="buttonFuture"> Vous y êtes ! </p>
                 ) : (
                   <a href={link} target="_blank" rel="noopener noreferrer">
                     <button>

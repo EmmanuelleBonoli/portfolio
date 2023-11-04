@@ -1,10 +1,27 @@
 .pageProjects {
-  background-color: var(--dark-color);
+  background-color: var(--third-color-light);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   .projectsDev {
     width: 70vw;
+  }
+
+  h1 {
+    padding: 2%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .projectsDev {
+      width: 90vw;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .projectsDev {
+      width: 100vw;
+    }
   }
 }

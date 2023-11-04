@@ -10,7 +10,7 @@ const Contact = () => {
           <h2>Emmanuelle BONOLI</h2>
           <img
             className="myself"
-            src="../../public/images/photoCVEBonoli.png"
+            src="../../images/photoCVEBonoli.png"
             alt="Emmanuelle BONOLI"
           />
         </div>
@@ -20,21 +20,21 @@ const Contact = () => {
             <a href={`mailto:${email}`}>
               <img
                 className="mail"
-                src="../../public/images/email-blanc.png"
+                src="../../images/email-blanc.png"
                 alt="logo Mail"
               />
             </a>
             <a href={githubLink} target="_blank" rel="noopener noreferrer">
               <img
                 className="github"
-                src="../../public/images/github.png"
+                src="../../images/github.png"
                 alt="logo GitHub"
               />
             </a>
             <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
               <img
                 className="linkedin"
-                src="../../public/images/linkedin-3-blanc.png"
+                src="../../images/linkedin-3-blanc.png"
                 alt="logo LinkedIn"
               />
             </a>

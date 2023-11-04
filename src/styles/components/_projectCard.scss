@@ -4,17 +4,17 @@
   transition: all 0.4s;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
-  background-color: var(--light-color);
+  background-color: var(--dark-color);
 
   .first-content {
     transition: all 0.4s;
     display: flex;
-    // justify-content: center;
     flex-direction: column;
     opacity: 1;
     border-radius: 15px;
     height: 100%;
   }
+
   .illuProject {
     height: 90%;
     border-radius: 10px 10px 0 0;
@@ -36,7 +36,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     border-radius: 15px;
     transition: all 0.4s;
     transform: rotate(90deg) scale(-1);
@@ -48,17 +47,18 @@
     .topProjectCard {
       display: flex;
       justify-content: space-around;
+      align-items: center;
       padding: 5% 0 5% 0;
-      text-align: left;
-      padding: 5%;
+      height: 60%;
     }
 
     .illu2nd {
-      width: 40%;
+      height: 80%;
     }
-   .bottomProjectCard{
-    padding:5%;
-   }
+    .illu2ndprojet {
+      height: 100%;
+    }
+
     .partWeb {
       display: flex;
       flex-direction: column;
@@ -67,18 +67,19 @@
     button {
       cursor: pointer;
       border-radius: 5px;
-      background-color: var(--third-color);
+      background-color: var(--light-color);
       border: transparent;
       height: 6vh;
-      width: 6vw;
+      width: 20vw;
       font-size: 1rem;
     }
+
     .buttonFuture {
       border-radius: 5px;
-      background-color: var(--third-color);
+      background-color: var(--light-color);
       border: transparent;
       height: 6vh;
-      width: 6vw;
+      width: 20vw;
       font-size: 1rem;
       display: flex;
       justify-content: center;
@@ -86,8 +87,9 @@
     }
 
     .logoInternet {
-      padding: 5%;
-      width:50%;
+      padding: 2%;
+      object-fit: contain;
+      height: 100%;
     }
 
     .linkProject {
@@ -98,13 +100,63 @@
     button:hover {
       background-color: rgb(168, 148, 78);
     }
+
+    .bottomProjectCard {
+      padding: 0 5% 0 5%;
+    }
+
+    .descProject {
+      padding-bottom: 2%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .first-content {
+      justify-content: space-around;
+    }
+    .illuProject {
+      height: 50%;
+      object-fit: contain;
+      border-radius: 0;
+    }
+    .learn-more {
+      height: 20%;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .second-content {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .topProjectCard {
+      flex-direction: column;
+      height: 50%;
+    }
+    .bottomProjectCard {
+      height: 50%;
+    }
+
+    button {
+      width: 20vw;
+    }
+    .buttonFuture {
+      width: 20vw;
+    }
+
+    .illu2nd {
+      display: none;
+    }
   }
 }
 
 .cardProject:hover {
   border-radius: 15px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.705);
-  background: var(--third-color);
+  background: var(--dark-color);
   color: white;
 }
 

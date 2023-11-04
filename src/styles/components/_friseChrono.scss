@@ -1,19 +1,19 @@
-.friseChrono{
+.friseChrono {
+  min-height: 80vh;
 
-
-  img{
+  img {
     object-fit: contain;
     height: 10vh;
   }
- .rc-card-media{
-  min-height: 12vh;
- }
+  .rc-card-media {
+    min-height: 12vh;
+  }
 
   .TimelineControlContainer-sc-cif21b-4 {
     display: none;
   }
-  
-  .timeline-main-wrapper{
+
+  .timeline-main-wrapper {
     height: 90vh;
   }
 }

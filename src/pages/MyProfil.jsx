@@ -11,6 +11,7 @@ const MyProfil = () => {
 
   return (
     <div className="myProfil">
+      <h1>Mon Profil</h1>
       <div className="detailsProfil">
         <div className="filterProfil">
           <label className="filters">
@@ -46,15 +47,9 @@ const MyProfil = () => {
           </label>
         </div>
         <div className="descProfil">
-          {filtreActif === "Filtre1" && (
-            <Competences/>
-          )}
-          {filtreActif === "Filtre2" && (
-            <FriseChrono/>
-          )}
-          {filtreActif === "Filtre3" && (
-            <Interests/>
-          )}
+          {filtreActif === "Filtre1" && <Competences />}
+          {filtreActif === "Filtre2" && <FriseChrono />}
+          {filtreActif === "Filtre3" && <Interests />}
         </div>
       </div>
     </div>

@@ -1,13 +1,16 @@
 .myProfil {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
-  padding-top: 2%;
+  align-items: center;
   flex-wrap: wrap;
 
   .detailsProfil {
     width: 80vw;
+  }
+  h1 {
+    padding: 2%;
   }
   .compProfil,
   .expProfil,
@@ -21,12 +24,13 @@
     padding: 0.5rem 0;
     color: rgba(51, 65, 85, 1);
     transition: all 0.15s ease-in-out;
+    padding: 2%;
   }
 
   input:checked + .compProfil,
   input:checked + .expProfil,
   input:checked + .otherProfil {
-    background-color: var(--light-color);
+    background-color: var(--dark-color);
     font-weight: 600;
   }
   .filterProfil {
@@ -34,7 +38,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     border-radius: 0.5rem;
-    background-color: var(--third-color);
+    background-color: var(--third-color-light);
     padding: 0.25rem;
     width: 100%;
     font-size: 14px;

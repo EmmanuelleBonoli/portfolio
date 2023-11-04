@@ -1,13 +1,12 @@
-.contact{
-height: 60vh;
-margin-top: 5%;
-background-color: var(--third-color-light);
-display:flex;
-justify-content: center;
-align-items: center;
+.contact {
+  height: 60vh;
+  margin-top: 5%;
+  background-color: var(--third-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-
-.cardContact{
+  .cardContact {
     background-color: var(--light-color);
     border-radius: 15px;
     display: flex;
@@ -15,41 +14,40 @@ align-items: center;
     align-items: center;
     padding: 3%;
     flex-wrap: wrap;
-min-width: 50vw;
-}
+    min-width: 50vw;
+  }
 
-.mail, .github, .linkedin{
+  .mail,
+  .github,
+  .linkedin {
     width: 7vw;
     padding: 1%;
-}
-.myself{
+  }
+  .myself {
     border-radius: 15px;
     width: 10vw;
-}
+  }
 
-.socialNetworks{
+  .socialNetworks {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-}
-h2{
+  }
+  h2 {
     display: flex;
     flex-wrap: wrap;
-}
+  }
 
-a:hover{
+  a:hover {
     opacity: 40%;
-}
+  }
 
-.firstPartContact{
+  .firstPartContact {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding: 2%;
+  }
 }
-
-}
-
-  
-

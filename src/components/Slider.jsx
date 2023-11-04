@@ -6,8 +6,8 @@ import ProjectCard from "./ProjectCard";
 function Slider() {
   return (
     <div className="slider">
-    <Carousel>
-      {baseProjects.map((project) => (
+      <Carousel>
+        {baseProjects.map((project) => (
           <ProjectCard
             key={project.numProject}
             image={project.image}
@@ -22,9 +22,9 @@ function Slider() {
             link={project.link}
           />
         ))}
-    </Carousel>
+      </Carousel>
     </div>
-  )
+  );
 }
 
 export default Slider;

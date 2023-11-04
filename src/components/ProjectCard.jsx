@@ -17,62 +17,60 @@ const ProjectCard = ({
       <div className="first-content">
         <img src={image} className="illuProject" alt="image du projet" />
         <div className="learn-more">
-          <h1>Projet : {name}</h1>
+          <h1>{name}</h1>
           {stack}
           <div className="moreInfos">{`Plus d'infos >`}</div>
         </div>
       </div>
 
       <div className="second-content">
-        <span className="topProjectCard">
-          <div >
-            <div>
-              <img className="illu2nd" src={image2} alt="image du projet" />
-            </div>
-            <div className="detailsProject">
-              <h1>{name}</h1>
-              <div>Réalisation : {context}</div>
-              <div>Durée du projet : {length}</div>
-              <div>Type : {type}</div>
-              <div>Stack Technique : {stack}</div>
-            </div>
+        <div className="topProjectCard">
+          <div className="illu2nd">
+            <img className="illu2ndprojet" src={image2} alt="image du projet" />
           </div>
-          <div className="bottomProjectCard">
-            <div>Description : {description}</div>
-            <div className="linkProject">
-              <div className="partWeb">
-                Voir vers le site :
-                {link === "à venir" ? (
-                  <p className="buttonFuture">à venir</p>
-                ) : link === "vous y êtes! :)" ? (
-                  <p className="buttonFuture"> Vous y êtes ! </p>
-                ) : (
-                  <a href={link} target="_blank" rel="noopener noreferrer">
-                    <button>
-                      <img
-                        className="logoInternet"
-                        src="../public/images/site-internet-blanc.png"
-                        alt="logo site internet"
-                      />
-                    </button>
-                  </a>
-                )}
-              </div>
-              <div className="partWeb">
-                Voir le code :
-                <a href={github} target="_blank" rel="noopener noreferrer">
+          <div className="detailsProject">
+            <h1>{name}</h1>
+            <div>Réalisation : {context}</div>
+            <div>Durée du projet : {length}</div>
+            <div>Type : {type}</div>
+            <div>Stack Technique : {stack}</div>
+          </div>
+        </div>
+        <div className="bottomProjectCard">
+          <div className="descProject">Description : {description}</div>
+          <div className="linkProject">
+            <div className="partWeb">
+              Lien vers le site :
+              {link === "à venir" ? (
+                <p className="buttonFuture">à venir</p>
+              ) : link === "vous y êtes! :)" ? (
+                <p className="buttonFuture"> Vous y êtes ! </p>
+              ) : (
+                <a href={link} target="_blank" rel="noopener noreferrer">
                   <button>
                     <img
                       className="logoInternet"
-                      src="../public/images/github.png"
-                      alt="Logo Github"
+                      src="../images/site-internet-blanc.png"
+                      alt="logo site internet"
                     />
                   </button>
                 </a>
-              </div>
+              )}
+            </div>
+            <div className="partWeb">
+              Voir le code :
+              <a href={github} target="_blank" rel="noopener noreferrer">
+                <button>
+                  <img
+                    className="logoInternet"
+                    src="../images/github.png"
+                    alt="Logo Github"
+                  />
+                </button>
+              </a>
             </div>
           </div>
-        </span>
+        </div>
       </div>
     </div>
   );

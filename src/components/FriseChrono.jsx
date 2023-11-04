@@ -54,10 +54,13 @@ const FriseChrono = () => {
         mode="VERTICAL"
         slideShow
         slideItemDuration={3000}
-        cardHeight={150}
+        cardHeight={200}
         cardWidth={600}
         fontSizes={{
-          title: "1.1rem",
+          title: "1.2rem",
+          cardSubtitle: '1.2rem',
+          cardText: '1.2rem',
+          cardTitle: '1.2rem',
         }}
         contentDetailsHeight={150}
         theme={{

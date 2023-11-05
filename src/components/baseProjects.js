@@ -21,7 +21,7 @@ const baseProjects = [
     stack: "API externe, React.js, Javascript, CSS, Figma, Trello",
     length: "en cours",
     description:
-      "jeu de combat entre super héros, réalisé selon la méthode agile (itération de sprints d'1semaine), sur la base de données API externe. Au programme : router, gestion des animations, réflexion UI/UX, et plein d'autres défis !!",
+      "jeu de combat entre super héros, réalisé selon la méthode agile.",
     image: "/images/ClashHeroes.png",
     image2: "/images/ClashHeroes2.png",
     link: "à venir",

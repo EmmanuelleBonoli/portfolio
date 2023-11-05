@@ -7,7 +7,7 @@ const FriseChrono = () => {
       cardTitle: "Analyste Financière",
       cardSubtitle: "Banque de France",
       cardDetailedText:
-        "Audit financier et analyse de marché de plusieurs centaines de groupes français, mais aussi réalisation d'entretiens auprès des dirigeants. Mon expertise m'a conduite à former de nombreux collègues.",
+        "Audit financier et analyse de marché de plusieurs centaines de groupes, réalisation d'entretiens auprès des dirigeants. Mon expertise m'a conduite à former de nombreux collègues.",
       media: {
         type: "IMAGE",
         source: {
@@ -34,7 +34,7 @@ const FriseChrono = () => {
       cardSubtitle:
         "Et si ma prochaine expérience se passait au sein de votre entreprise ?",
       cardDetailedText:
-        "En recherche active d'un stage (pouvant aller de 2 à 6mois) ET/OU d'une alternance (1an). Je suis prête à m'investir pleinement au sein de l'entreprise qui me fera confiance, aussi bien dans les projets qui me seront confiés que l'apprentissage si nécessaire de nouveaux langages et/ou frameworks! ",
+        "En recherche active d'un stage (de 2 à 6mois) ET/OU d'une alternance (1an). Je suis prête à m'investir pleinement au sein de l'entreprise qui me fera confiance! ",
       media: {
         type: "IMAGE",
         source: {
@@ -47,7 +47,7 @@ const FriseChrono = () => {
   return (
     <div
       className="friseChrono"
-      style={{ width: "95%", height: "70vh", padding: "1%" }}
+      style={{ width: "100%", height: "70vh", padding: "1%" }}
     >
       <Chrono
         items={items}
@@ -55,14 +55,12 @@ const FriseChrono = () => {
         slideShow
         slideItemDuration={3000}
         cardHeight={200}
-        cardWidth={600}
+        cardWidth={650}
         fontSizes={{
-          title: "1.4rem",
-          cardSubtitle: '1.4rem',
-          cardText: '1.4rem',
-          cardTitle: '1.4rem',
+          title: "1rem",
+          cardSubtitle: '1rem',
         }}
-        contentDetailsHeight={150}
+        contentDetailsHeight={250}
         theme={{
           primary: "var(--dark-color)",
           secondary: "var(--dark-color)",

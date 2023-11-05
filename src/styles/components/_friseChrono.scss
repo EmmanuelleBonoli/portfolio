@@ -1,5 +1,7 @@
 .friseChrono {
   min-height: 80vh;
+  width: 100vw;
+  transform: translate(-40px);
 
   img {
     object-fit: contain;
@@ -15,5 +17,9 @@
 
   .timeline-main-wrapper {
     height: 90vh;
+  }
+
+  p{
+    font-size: 1rem;
   }
 }

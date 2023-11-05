@@ -13,7 +13,7 @@ const Interests = () => {
         <div>
           <h3>Dessin / Digital Painting</h3>
           <p>{`Déplacement au festival International de la BD d'Angoulême`}</p>
-          <p>Participation au challenge Inktober</p>
+          <p>{`Participation au challenge Inktober`}</p>
         </div>
       </div>
       <div className="tennis">

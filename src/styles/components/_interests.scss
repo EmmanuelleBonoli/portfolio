@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 90vw;
   min-height: 80vh;
-  // padding: 5%;
+  padding: 5%;
 
   img {
-    width: 50%;
+    width: 15vw;
   }
 
   .descAsso {
@@ -25,12 +26,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 3%;
     width: 30vw;
   }
+
   p {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .asso,
+    .draw,
+    .tennis,
+    .code {
+      width: 100%; 
+    }
   }
 }

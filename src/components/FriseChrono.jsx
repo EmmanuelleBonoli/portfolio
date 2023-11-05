@@ -57,10 +57,10 @@ const FriseChrono = () => {
         cardHeight={200}
         cardWidth={600}
         fontSizes={{
-          title: "1.2rem",
-          cardSubtitle: '1.2rem',
-          cardText: '1.2rem',
-          cardTitle: '1.2rem',
+          title: "1.4rem",
+          cardSubtitle: '1.4rem',
+          cardText: '1.4rem',
+          cardTitle: '1.4rem',
         }}
         contentDetailsHeight={150}
         theme={{

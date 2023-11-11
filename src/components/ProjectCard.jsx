@@ -44,7 +44,7 @@ const ProjectCard = ({
               {link === "à venir" ? (
                 <p className="buttonFuture">à venir</p>
               ) : link === "vous y êtes! :)" ? (
-                <p className="buttonFuture"> Vous y êtes ! </p>
+                <p className="buttonFuture">Vous y êtes</p>
               ) : (
                 <a href={link} target="_blank" rel="noopener noreferrer">
                   <button>

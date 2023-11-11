@@ -6,7 +6,9 @@ import ProjectCard from "./ProjectCard";
 function Slider() {
   return (
     <div className="slider">
-      <Carousel>
+      <Carousel
+      showThumbs={false}
+      >
         {baseProjects.map((project) => (
           <ProjectCard
             key={project.numProject}

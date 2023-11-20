@@ -7,7 +7,7 @@ const baseProjects = [
     stack: "React.js, Javascript, CSS",
     length: "1mois et demi",
     description: "Jeu de Yam's classique",
-    image: "/images/yahtzee.png",
+    image: "/images/yahtzee3.png",
     image2: "/images/yahtzee2.png",
     link: "https://major-game-yahtzee.vercel.app",
     github: "https://github.com/EmmanuelleBonoli/Yathzee",

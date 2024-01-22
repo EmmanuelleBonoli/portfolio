@@ -1,5 +1,18 @@
 const baseProjects = [
   {
+    numProject: 6,
+    name: "ARCADE REALM",
+    context: "Formation",
+    type: "site vitrine + jeux en ligne",
+    stack: "React.js, Express, node.js, Javascript, CSS",
+    length: "1mois et demi",
+    description: "Présentation d'une salle d'arcade physique avec base de données de joueurs en ligne, concours, gestion administrateur...",
+    image: "/images/arcaderealm1.png",
+    image2: "/images/arcaderealm2.png",
+    link: "à venir",
+    github: "https://github.com/EmmanuelleBonoli/Arcade_realm",
+  },
+  {
     numProject: 5,
     name: "Yahtzee",
     context: "Personnelle",

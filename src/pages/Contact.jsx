@@ -10,7 +10,7 @@ const Contact = () => {
           <h2>Emmanuelle BONOLI</h2>
           <img
             className="myself"
-            src="../../images/photoCVEBonoli.png"
+            src="../../images/photoCVEBonoli.jpg"
             alt="Emmanuelle BONOLI"
           />
         </div>

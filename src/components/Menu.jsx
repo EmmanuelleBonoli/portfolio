@@ -20,7 +20,7 @@ const Menu = () => {
       <div className="presentation">
         <img
           className="photoCV"
-          src="../images/photoCVEBonoli.png"
+          src="../images/photoCVEBonoli.jpg"
           alt="photo E BONOLI"
         />
         <p> Emmanuelle BONOLI</p>

@@ -3,24 +3,26 @@ import { Chrono } from "react-chrono";
 const FriseChrono = () => {
   const items = [
     {
-      title: "14 - 23",
-      cardTitle: "Analyste Financière",
-      cardSubtitle: "Banque de France",
+      title: "2024",
+      cardTitle: "Stage de 6mois en tant que Développeuse Web Fullstack",
+      // cardSubtitle:
+      //   "Code Lutin",
       cardDetailedText:
-        "Audit financier et analyse de marché de plusieurs centaines de groupes, réalisation d'entretiens auprès des dirigeants. Mon expertise m'a conduite à former de nombreux collègues.",
+        "Migration frontend et backend d'une application, recueil de besoins et développement de nouvelles fonctionnalités. Au terme de ce stage, de nouvelles compétences seront acquises comme la maitrise du backend en Java ainsi que l'outil Docker. ",
       media: {
         type: "IMAGE",
         source: {
-          url: "../../images/logoBDF.webp",
+          url: "../../images/logoCodeLutin.png",
         },
       },
     },
+   
     {
       title: "23 - 24",
       cardTitle: "Formation certifiante Développement Web",
-      cardSubtitle: "Wild Code School",
+      // cardSubtitle: "Wild Code School",
       cardDetailedText:
-        "Réalisation de plusieurs projets professionnalisant (voir rubrique dédiée). Au terme de la formation, je serais amenée à maitriser Javascript, React.js, Express, Node.js, MySQL, CSS et HTML.",
+        "Réalisation de plusieurs projets professionnalisant (voir rubrique dédiée). La formation m'a conduite à maitriser Javascript, React.js, Express, Node.js, MySQL, CSS et HTML.",
       media: {
         type: "IMAGE",
         source: {
@@ -29,16 +31,15 @@ const FriseChrono = () => {
       },
     },
     {
-      title: "fév 24 - ???",
-      cardTitle: "Développeuse Web Fullstack",
-      cardSubtitle:
-        "Et si ma prochaine expérience se passait au sein de votre entreprise ?",
+      title: "14 - 23",
+      cardTitle: "Analyste Financière",
+      // cardSubtitle: "Banque de France",
       cardDetailedText:
-        "En recherche active d'un stage (de 2 à 6mois) ET/OU d'une alternance (1an). Je suis prête à m'investir pleinement au sein de l'entreprise qui me fera confiance! ",
+        "Audit financier et analyse de marché de plusieurs centaines de groupes, réalisation d'entretiens auprès des dirigeants. Mon expertise m'a conduite à former de nombreux collègues.",
       media: {
         type: "IMAGE",
         source: {
-          url: "../../images/votreLogo.png",
+          url: "../../images/logoBDF.webp",
         },
       },
     },

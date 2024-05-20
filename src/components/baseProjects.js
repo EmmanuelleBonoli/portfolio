@@ -1,5 +1,18 @@
 const baseProjects = [
   {
+    numProject: 7,
+    name: "WID",
+    context: "Stage Code Lutin",
+    type: "Application de Gestion des temps",
+    stack: "React.js, Javascript, Quarkus, Java",
+    length: "6mois",
+    description: "Migration de l'application, recueil de besoins et développement de nouvelles fonctionnalités",
+    image: "/images/wid1.png",
+    image2: "/images/wid2.png",
+    link: "https://wid-timer.org/",
+    github: "no code",
+  },
+  {
     numProject: 6,
     name: "ARCADE REALM",
     context: "Formation",
@@ -9,7 +22,7 @@ const baseProjects = [
     description: "Présentation d'une salle d'arcade physique avec base de données de joueurs en ligne, concours, gestion administrateur...",
     image: "/images/arcaderealm1.png",
     image2: "/images/arcaderealm2.png",
-    link: "à venir",
+    link: "http://vps-d5babf40.vps.ovh.net:5004/",
     github: "https://github.com/EmmanuelleBonoli/Arcade_realm",
   },
   {

@@ -57,6 +57,7 @@ const ProjectCard = ({
                 </a>
               )}
             </div>
+            {github=== "no code" ?(""):(
             <div className="partWeb">
               Voir le code :
               <a href={github} target="_blank" rel="noopener noreferrer">
@@ -68,7 +69,7 @@ const ProjectCard = ({
                   />
                 </button>
               </a>
-            </div>
+            </div>)}
           </div>
         </div>
       </div>

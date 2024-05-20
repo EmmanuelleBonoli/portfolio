@@ -10,14 +10,18 @@ const Competences = () => {
           </div>
           <div className="env">
             <h3>Environnement technique :</h3>
-            <div> ReactJS, ViteJS</div>
+            <div> React, Vue, Vite</div>
           </div>
         </div>
         <div className="backEnd">
           <h2>Back-End</h2>
+          <div className="language">
+            <h3>Langages : </h3>
+            <div>NodeJs, Java</div>
+          </div>
           <div className="env">
             <h3>Environnement Technique :</h3>
-            <div> NodeJS, Express, MySQL </div>
+            <div> Express, Quarkus, MySQL </div>
           </div>
         </div>
         <div className="multiEnd">
@@ -25,7 +29,7 @@ const Competences = () => {
           <div className="divStack">
             <div>
               <h3>Outils :</h3>
-              <div>Git, GitHub, VSCode, Figma, Trello... </div>
+              <div>Git, GitHub, Docker, VSCode, Figma, Trello... </div>
             </div>
             <div>
               <h3>Autres :</h3>

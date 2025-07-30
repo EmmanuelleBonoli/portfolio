@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 72px;
+}
+
+@custom-variant dark (&:is(.dark *));
+
+/* Chrome, Safari */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3b82f6;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #3b82f6 transparent;
+}

@@ -1,0 +1,65 @@
+const baseProjects = [
+  {
+    id: 6,
+    name: "Moodflow",
+    context: "Perso",
+    stack: "Next, Typescript, Nest.js, Prisma, I.A., Docker, CI/CD",
+    description: "Application type todolist, génère un planning personnalisé des taches en fonction de l'humeur de l'utilisateur grâce à l'IA",
+    image: "/images/Moodflow.png",
+    link: "",
+    github: ["https://github.com/EmmanuelleBonoli/Moodflow"],
+  },
+  {
+    id: 5,
+    name: "Astro Puyo",
+    context: "Perso",
+    stack: "Vue, Typescript, Spring, Java, Hibernate, Capacitor, Docker, CI/CD",
+    description: "Jeu mobile du style puyo puyo",
+    image: "/images/AstroPuyo.png",
+    link: "",
+    github: ["https://github.com/EmmanuelleBonoli/puyo-reboot-front", "https://github.com/EmmanuelleBonoli/puyo-reboot-back"],
+  },
+  {
+    id: 4,
+    name: "A l'asso",
+    context: "Formation",
+    stack: "Angular, Typescript, Spring, Java, Hibernate, Docker, CI/CD",
+    description: "Site de partage d'activités au service des associations",
+    image: "/images/Alasso.png",
+    link: "",
+    github: ["https://github.com/WildCodeSchool/a-lasso_frontend", "https://github.com/WildCodeSchool/a-lasso_backend"],
+  },
+  {
+    id: 3,
+    name: "WID",
+    context: "Stage Code Lutin",
+    stack: "React.js, Javascript, Quarkus, Java, Docker, CI/CD",
+    description: "Application de Gestion des temps",
+    image: "/images/wid2.png",
+    link: "https://wid-timer.org/",
+    github: [],
+  },
+  {
+    id: 2,
+    name: "Yahtzee",
+    context: "Perso",
+    stack: "React.js, Javascript, CSS",
+    description: "Jeu de Yam's classique",
+    image: "/images/yahtzee3.png",
+    link: "https://major-game-yahtzee.vercel.app",
+    github: ["https://github.com/EmmanuelleBonoli/Yathzee"],
+  },
+  {
+    id: 1,
+    name: "Portfolio",
+    context: "Perso",
+    stack: "React.js, Javascript, CSS",
+    description:
+      "Site ayant pour objectif de présenter mon parcours et mes projets de manière épurée",
+    image: "/images/illuProjetSite.png",
+    link: "Vous y êtes !",
+    github: ["https://github.com/EmmanuelleBonoli/portfolio"],
+  }
+];
+
+export default baseProjects;

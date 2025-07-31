@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import {cvLink, githubLink, email, linkedinLink} from "../assets/socialNetworks.js";
+import {cvLink, githubLink, email, linkedinLink} from "../assets/socialNetworks.jsx";
 
 const Contact = () => {
   return (

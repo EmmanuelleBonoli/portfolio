@@ -1,4 +1,4 @@
-import {interestsData} from "../assets/interestsData.js";
+import {interestsData} from "../assets/interestsData.jsx";
 
 const Interests = () => {
     return (

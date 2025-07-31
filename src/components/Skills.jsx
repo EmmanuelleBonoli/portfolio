@@ -1,4 +1,4 @@
-import {skillsData} from "../assets/skillsData.js";
+import {skillsData} from "../assets/skillsData.jsx";
 
 const Skills = () => {
    return (

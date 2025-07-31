@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail } from "lucide-react";
-import {githubLink, email, linkedinLink} from "../assets/socialNetworks.js";
+import {githubLink, email, linkedinLink} from "../assets/socialNetworks.jsx";
 
 
 const Footer = () => {
